@@ -39,7 +39,6 @@ function App() {
     const threshold =units === "metric" ? 20:60 ;
     if (weather.temp <= threshold) return "from-cyan-600 to-lue-700";
     return "from-yellow-600 to-orange-700"
-
   }
 
   return (
