@@ -24,7 +24,7 @@ function App() {
 
 
     await getFormatedWeatherData({ ...query, units }).then((data) => {
-      toast.info(`Fetching weather data for ${data.name}, ${data.country} `);
+      toast.success(`Fetching weather data for ${data.name}, ${data.country} `);
       setweather(data);
     });
 
